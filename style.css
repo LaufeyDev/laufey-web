@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 body {
 	background-color: #171717;
 	color: white;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Roboto", sans-serif;
 	letter-spacing: 2px;
 }
 
@@ -21,7 +23,6 @@ body {
 	font-weight: bold;
 	line-height: 2;
 	display: block;
-	font-family: var(--font);
 	width: 100%;
 	text-align: center;
 	text-decoration: none;
@@ -43,7 +44,6 @@ body {
 a {
 	text-decoration: none;
 	font-weight: 500;
-	font-family: "Poppins", sans-serif;
 	color: #cc99cc;
 	transition: color 1s;
 }
