@@ -223,9 +223,7 @@ a{
     
 }
 
-.link-1{
 
-}
 
 
 
@@ -252,19 +250,13 @@ a{
 }
 
 
-#preview-shadow{
-    background-color: var(--previewshadow);
-    width: 280px;
-    height: 180px;
-    padding-left: 20px;
-    padding-top: 30px;
-}
+
 
 #preview{
 
     width: 300px;
     border: 1.5px solid #688cdf;
-    background-color: var(--previewbg);
+    background-color: var(--maincolor);
     padding: 15px;
     position: relative;
 
@@ -345,12 +337,7 @@ a{
 }
 
 @media screen and (max-width: 400px){
-	#preview-shadow{
-		max-width: 280px;
-		height: 180px;
-		padding-left: 10px;
-		padding-top: 10px;
-	}
+	
 
 	#preview{
 		width: 280px;
