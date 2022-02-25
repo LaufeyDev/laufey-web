@@ -53,6 +53,14 @@ h6{
     margin: 10px;
 }
 
+p2{
+    color: #1c1c2c;
+    font-family: 'Russo one', sans-serif;
+    font-weight: 500;
+    margin: 10px;
+    font-size: 20px;
+}
+
 a{
     text-decoration: none;
     color: #17a2b8;
@@ -220,38 +228,9 @@ a{
 }
 
 
-#square-1{
 
-    background-color: #fc6058;
 
-}
 
-#square-2{
-
-    background-color: #A7C7E7;
-
-}
-
-#square-3{
-
-    background-color: #cb99c9;
-
-}
-
-.line{
-    background-color: black;
-    height: 50px;
-    width: 50px;
-    padding-left: 10px;
-    position: relative;
-    left: 190px;
-    
-    margin: 3px;
-
-    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-}
 
 
 
@@ -338,20 +317,7 @@ a{
     }
 }
 
-@media screen  and (max-width: 768px){
 
-    .line{
-        background-color: black;
-    height: 50px;
-    width: 50px;
-    padding-left: 2px;
-    position: relative;
-    left: 220px;
-    
-    margin: 3px;
-    }
-
-}
 
 
 @media screen  and (max-width: 800px){
@@ -377,3 +343,20 @@ a{
     }
     
 }
+
+@media screen and (max-width: 400px){
+	#preview-shadow{
+		max-width: 280px;
+		height: 180px;
+		padding-left: 10px;
+		padding-top: 10px;
+	}
+
+	#preview{
+		width: 280px;
+
+	}
+
+}
+      
+        
