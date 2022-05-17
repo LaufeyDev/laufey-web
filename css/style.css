@@ -128,7 +128,7 @@ a:hover {
   color: rgb(229, 226, 226);
   font-family: 'Roboto Mono', monospace;
   text-align: left;
-  padding-left: 2em;
+  padding-left: 1em;
 
 
 }  
@@ -136,7 +136,7 @@ a:hover {
 .Blog{
 
   text-align: left;
-  padding-left: 3em;
+  padding-left: 2em;
 
 } 
 
