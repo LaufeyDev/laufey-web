@@ -92,6 +92,19 @@ a:hover {
   
 }
 
+.Posts{
+
+  padding-top: 3em;
+  text-align: left;
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+  line-height: 1.675;
+  counter-reset: definition;
+  text-rendering: optimizeLegibility;
+  font-size: 20px;
+
+}
 
 
 
