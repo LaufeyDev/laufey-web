@@ -1,1 +1,1 @@
-#[Link](https://laufey.is-a.dev/)
+# [Link](https://laufey.is-a.dev/)
