@@ -1,5 +1,5 @@
 body{
-    background-color: #2b333b;
+    background-color: #282828;
 }
 
 .links {
@@ -19,12 +19,12 @@ body{
   }
   
   .links a:hover {
-    color: #d0b04b;
+    color: #fbf1c7;
     
   }
   
   .links a.active {
-    color: #d0b04b;
+    color: #fbf1c7;
   }
 
   .X {
@@ -38,10 +38,10 @@ body{
 .Y {
   font-family: 'Russo one', sans-serif;
   font-size: 100px;
-  font-weight: 700;
+  font-weight: 100;
   position: relative;
   transform: translateY(-50%);
-  color: #ff6961 ;
+  color: #8ec07c;
 }
 
 
@@ -88,7 +88,7 @@ a{
 }
 
 a:hover {
-  color: #d0b04b;
+  color: #ebdbb2;
   
 }
 
