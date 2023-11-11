@@ -1,0 +1,173 @@
+body{
+    background-color: #282828;
+}
+
+.links {
+  overflow: hidden;
+  margin: auto;
+  width: 75%;
+  padding: 15px;
+  padding-top: 45px;
+  text-align: center;
+  font-size: 15px;
+  }
+  
+  .links a {
+    color: #948985;
+    text-decoration: none;
+    padding: 5px 20px;
+  }
+  
+  .links a:hover {
+    color: #fbf1c7;
+    
+  }
+  
+  .links a.active {
+    color: #fbf1c7;
+  }
+
+  .X {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.Y {
+  font-family: 'Russo one', sans-serif;
+  font-size: 100px;
+  font-weight: 100;
+  position: relative;
+  transform: translateY(-50%);
+  color: #8ec07c;
+}
+
+
+p{
+  color: rgb(229, 226, 226);
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 2px;
+}
+
+h1{
+  color: rgb(229, 226, 226);
+  font-family: 'Roboto Mono', monospace;
+  text-align: left;
+  padding-left: 3em;
+ 
+ 
+  
+}
+
+h2{
+  color: rgb(229, 226, 226);
+  
+
+  
+  font-family: 'Russo One', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+}
+
+hr {
+  display: block;
+  width: 50%;
+}
+
+a{
+
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  color: rgb(229, 226, 226);
+  text-decoration: none;
+ 
+  
+}
+
+a:hover {
+  color: #ebdbb2;
+  
+}
+
+.Posts{
+
+  padding-top: 3em;
+  text-align: left;
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+  line-height: 1.675;
+  counter-reset: definition;
+  text-rendering: optimizeLegibility;
+  font-size: 20px;
+
+}
+
+
+
+.Home{
+  text-align: right;
+  padding-right: 2em;
+  padding-top: 2em;
+}
+
+
+.About{
+  padding-top: 3em;
+  text-align: left;
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+  line-height: 1.675;
+  counter-reset: definition;
+  text-rendering: optimizeLegibility;
+  font-size: 20px;
+}
+
+.Blog{
+  text-align: left;
+  padding-left: 4em;
+
+}
+
+@media only screen and (max-width: 768px){
+    
+    
+ h1{
+
+  color: rgb(229, 226, 226);
+  font-family: 'Roboto Mono', monospace;
+  text-align: left;
+  
+
+
+}  
+
+.Blog{
+
+  text-align: left;
+  padding-left: 2em;
+
+} 
+
+
+
+  
+ 
+
+.Y {
+  font-size: 36px;
+}
+
+
+
+.links {
+  width: 90%;
+}
+}
+
+  
+  
